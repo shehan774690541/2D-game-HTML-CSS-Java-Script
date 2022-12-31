@@ -24,3 +24,8 @@
 <li>Choose a mode that suits your skill level in the difficulty menu</li>
 <li>Once you select the difficulty level you want, an alt will give you a description of the difficulty level. Once that is done, the game is reversed</li>
 
+<h2>Difficulty Menu</h2>
+<li><b>CASUAL</b> - <i>very slow  Very easy to play.  Gameplay is sloppy</i></li>
+<li><b>STANDARD</b> - <i>very slow  Very easy to play.  Gameplay is sloppy</i></li>
+<li><b>HARDCORE</b> - <i>The speed is quite high.  Takes a competitive style.  Quite tiring</i></li>
+<li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
