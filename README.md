@@ -33,7 +33,7 @@
 <h2>Image Manual</h2>
 
 <h3>Main Menu</h3>
-<img src="mainMenu.png"/>
+<img src="git-img/mainMenu.png"/>
 
 <h3>Manual</h3>
 <img src="manual.png"/>
