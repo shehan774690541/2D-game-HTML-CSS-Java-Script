@@ -29,3 +29,37 @@
 <li><b>STANDARD</b> - <i>very slow  Very easy to play.  Gameplay is sloppy</i></li>
 <li><b>HARDCORE</b> - <i>The speed is quite high.  Takes a competitive style.  Quite tiring</i></li>
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
+
+<h2>Image Manual</h2>
+
+<h3>Main Menu</h3>
+<img src="mainMenu.png"/>
+
+<h3>Manual</h3>
+<img src="manual.png"/>
+
+<h3>Controles</h3>
+<img src="keys.png"/>
+
+<h3>Credit</h3>
+<img src="credit.png"/>
+
+<h3>Gender Select Menu</h3>
+<img src="player1.png"/>
+
+<h3>Background Select Menu</h3>
+<img src="bg.png"/>
+
+<h3>difficulty Select Menu</h3>
+<img src="difficulty.png"/>
+
+<h3>Playing Game -1</h3>
+<img src="playing2.png"/>
+
+<h3>Playing Game -2</h3>
+<img src="playing.png"/>
+
+<h3>Game Over</h3>
+<img src="win.png"/>
+
+
