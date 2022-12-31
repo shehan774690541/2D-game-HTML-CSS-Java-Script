@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+/* ----------------full screen---------------- */
+.fullScreen{
+    /* margin-top: -90vh; */
+    /* margin-left: -90vw; */
+    display: none;
+}
+.goBack{
+    background-color: unset;
+    display: flex;
+    position: absolute;
+}
+.goBack img{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* --------------main menu-------------- */
+.mainMenu {
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+
+    /* display: none; */
+
+}
+
+.mBtn{
+    font-size: 25px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 50px;
+    border-style: solid;
+    border-left-color: aqua;
+    color: rgb(38, 38, 70);
+    border-top: unset;
+    border-bottom: unset;
+    border-right: unset;
+    border-width: 5px;
+    text-align: left;
+    padding-left: 20px;
+    transition: 0.2s;
+    font-weight: bolder;
+}
+
+.mBtn:hover {
+    background-color: rgb(0, 255, 170);
+    border-left-color: rgba(255, 255, 255, 0.863);
+}
+
+/* ----------------credits---------------- */
+
+.credits{
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.cImg {
+    height: 180px;
+    border: 15px;
+    border-style:solid ;
+    border-color: rgba(240, 248, 255, 0.212);
+    border-radius: 1rem;
+}
+.cTitle {
+    font-size: larger;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.11);
+    border-radius: 1rem;
+    padding: 5px;
+    font-weight: bolder;
+}
+.cData {
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.068);
+    padding: 7px;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.cBtn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 1rem;
+    border-color: rgba(61, 61, 61, 0.411);
+    border-style: inset;
+    background-color: rgb(255, 80, 80);
+    color: aliceblue;
+    font-size: larger;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.cBtn:hover {
+    color: rgb(255, 80, 80);
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+/* -----------------controllers----------------- */
+.contoller {
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.tble{
+    /* background-color: aquamarine; */
+    width: 700px;
+}
+.conTable {
+    border-style: inherit;
+    border-color: black;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(255, 255, 255);
+}
+
+.conTable th {
+    font-size: 35px;
+}
+
+.conTable td {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* -----------------How To Play----------------- */
+
+.howToPlay {
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.contentHowTo {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 10px;
+}
+.contentHowTo h1{
+    color: aliceblue;
+    font-size: 45px;
+}
+.contentHowTo p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(44, 44, 44);
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.gameMenu{
+    background-image: url(bg/blurred-bg.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.playerSelecter{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+
+/* -----------player--------------- */
+.player{
+    height: 400px;
+    width: 300px;
+    /* display: none; */
+}
+.player h2{
+    text-align: center;
+}
+.player form{
+    text-align: center;
+    font-size: large;
+}
+.playerS{
+    /* background-color: aqua; */
+    height: 90%;
+}
+.genderSelectBtn{
+    background-color: aliceblue;
+    border-color: rgba(30, 28, 37, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+.genderSelectBtn:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+.M{
+    height: 160px;
+}
+.F{
+    height: 160px;
+}
+.nextBtn{
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: larger;
+    border-color: rgba(0, 0, 0, 0.473);
+}
+.nextBtn:hover{
+    border-color: black;
+}
+/* -------------background---------------- */
+.background{
+    display: none;
+    /* visibility: hidden; */
+
+}
+.selectBG{
+    width: 100px;
+}
+/* --------------Difficulty--------------- */
+.Difficulty{
+    display: none;
+}
+.Difficulty button{
+    width: 150px;
+    height: 30px;
+    margin: 4px;
+    margin: 5px;
+    font-size: larger;
+}
+.Difficulty_manual{
+    display: none;
+    background-color: aliceblue;
+    display: flex;
+    position: absolute;
+    margin-top: 80vh;
+    width: 100%;
+    font-size: large;
+}
+
+/* ----------------the game---------------- */
+.the_game{
+    display: none;
+    /* display: block; */
+}
+.bameBg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+
+}
+.gameBg1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg/bg1.jpg);
+    display: flex;
+    background-position: center;
+
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+
+}
+.gameBg2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg/bg2.jpg);
+    display: flex;
+    background-position: center;
+    
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+.gameBg3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg/bg3.jpg);
+    display: flex;
+    background-position: center;
+
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+
+ }
+
+ /* -----------------player--------------------- */
+.caracter{
+    height: 299px;
+    margin-left: 200px;
+    margin-top: 480px;
+}
+
+/* ------------------flames------------------- */
+.f{
+    height: 160px;
+    margin-top: 590px;
+    position: absolute;
+
+}
+/* -------------------score------------------- */
+.score_merter{
+    display: none;
+}
+.scrmeter{
+    display: flex;
+    position: absolute;
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(34, 111, 255);
+    
+    
+}
+.score{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.753);
+    /* width: 100%; */
+    /* height: 100vh; */
+    color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 1rem;
+    margin-left: 96vw;
+}
+.scoreStar{
+    background-image: url(icons/star.png);
+    opacity: 20%;
+}
+.playAgain{
+    width: 100px;
+    height: 60px;
+    width: 500px;
+    font-size: 30px;
+}
+
+/* ----------------pouse_menu---------------- */
+.pouseBG{
+    display: none;
+}
+.pouse_menu{
+    display: flex;
+    position: absolute;
+    background-image: url(bg/R.jfif);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.btnPouseMenu{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-color: rgba(255, 0, 0, 0);
+    border-style: solid;
+    margin: 10px;
+}
+.btnPouseMenu:hover{
+    border-color: rgba(0, 0, 0, 0.466);
+}

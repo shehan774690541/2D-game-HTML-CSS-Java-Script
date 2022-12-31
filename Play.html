@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="icon" href="icons/star.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onkeypress="keyPad(event)">
+    <div class="gameMenu" id="gameMenu">
+
+        <div class="playerSelecter" id="playerSelecter">
+            <div class="player" id="playerMenu">
+                <h2>Select Gender</h2>
+                <br>
+                <div class="playerS">
+                    <center>
+                        <button onclick="player_gender('m')" class="genderSelectBtn"><img class="M"
+                                src="player1/Idle (1) - Copy.png" alt=""></button>
+                        <button onclick="player_gender('f')" class="genderSelectBtn"><img class="F"
+                                src="player2/Idle (1).png" alt=""></button>
+                        <br>
+                        <br>
+                        <p class="mOrF" id="selectGender">Defoult Select : MALE</p>
+                        <br><br>
+                        <button class="nextBtn" ondblclick="view_bg_menu()">go next</button>
+                    </center>
+                </div>
+            </div>
+            <div class="background" id="backgroundMenu">
+                <h2>Select Background</h2>
+                <br><br>
+                <button> <img src="bg/bg1.jpg" onclick="select_bg('bg1')" class="selectBG" alt=""></button>
+                &nbsp;&nbsp;&nbsp; jungle
+                <br><br>
+                <button> <img src="bg/bg2.jpg" onclick="select_bg('bg2')" class="selectBG" alt=""></button>
+                &nbsp;&nbsp;&nbsp; ice
+                <br><br>
+                <button> <img src="bg/bg3.jpg" onclick="select_bg('bg3')" class="selectBG" alt=""></button>
+                &nbsp;&nbsp;&nbsp; park
+                <br><br>
+                <br>
+                <center>
+                    <p class="mOrF" id="select_bgtxt">Defoult select : park</p>
+                    <br>
+                    <button class="nextBtn" onclick="Difficulty_menu()">go next</button>
+                    <br>
+                </center>
+            </div>
+            <div class="Difficulty" id="DifficultyMenu">
+                <center>
+                    <h2>Change Difficulty</h2>
+                    <br>
+                    <button title="very slow  Very easy to play.  Gameplay is sloppy" class="CASUAL" onclick="p_Difficulty('CASUAL')">CASUAL</button><br>
+                    <button title="very slow  Very easy to play.  Gameplay is sloppy" class="STANDARD" onclick="p_Difficulty('STANDARD')">STANDARD</button><br>
+                    <button title="The speed is quite high.  Takes a competitive style.  Quite tiring" class="HARDCORE" onclick="p_Difficulty('HARDCORE')">HARDCORE</button><br>
+                    <button title="The speed is too high.  Difficult to play.  For skilled players" class="ADVANCED" onclick="p_Difficulty('ADVANCED')">ADVANCED</button><br>
+                </center>
+            </div>
+            <!-- <div class="the_game" id="the_game">
+                
+        
+            </div> -->
+        </div>
+        <!-- <img src="icons/flame.gif" alt=""> -->
+    </div>
+    <div id="gameBg" class="gameBg d-none">
+        <!-- <button onclick="start()">open</button> -->
+        <img src="player1/Run (1).png" class="caracter" id="caracter" alt="">
+        <!-- <img src="player1/Jump (1).png" class="f" alt="" srcset=""> -->
+    </div>
+    <div class="goBack">
+        <a href="index.html">
+            <img src="icons/goBack.jpeg" alt="" srcset="">
+        </a>
+    </div>
+    <div class="score_merter" id="score_merter">
+        <div class="scrmeter">
+            <table>
+                <tr>
+                    <td class="scoreStar" id="s_s_1">
+                        <img src="icons/star.png" alt="">
+                    </td>
+                    <td class="scoreStar" id="s_s_2">
+                        <img src="icons/star.png" alt="">
+                    </td>
+                    <td class="scoreStar" id="s_s_3">
+                        <img src="icons/star.png" alt="">
+                    </td>
+                    <td class="scoreStar" id="s_s_4">
+                        <img src="icons/star.png" alt="">
+                    </td>
+                    <td class="scoreStar" id="s_s_5">
+                        <img src="icons/star.png" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div style="text-align: center;">Game Over</div>
+                    </td>
+                    <td>
+                        <div id="endScore" style="text-align: left;">0</div>
+                    </td>
+                <tr>
+                    <td colspan="5">
+                        <center>
+                            <div>
+                                <div id="xp">your xp</div>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <center>
+                            <button class="playAgain" id="playAgain" onclick="playAgain()">Play again</button>
+        </div>
+
+        </center>
+        </td>
+        </tr>
+        </tr>
+        </table>
+
+
+
+    </div>
+    <div>
+        <div class="pouseBG" id="pouseBG">
+            <div class="pouse_menu">
+                <table>
+                    <tr>
+                        <td>
+                            <button class="btnPouseMenu" onclick="pouseResume()">Play Again</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html"><button class="btnPouseMenu">Go To Main Menu</button></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="score">
+        <p id="your_marks" onclick="pouseResume()">0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
