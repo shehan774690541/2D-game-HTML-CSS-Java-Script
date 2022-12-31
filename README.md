@@ -30,9 +30,9 @@
 <li><b>HARDCORE</b> - <i>The speed is quite high.  Takes a competitive style.  Quite tiring</i></li>
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
 
-
-<button href="https://youtu.be/xvsQJ_ONT6U">Watch On Youtube</button>
-
+<h1>
+<a href="https://youtu.be/xvsQJ_ONT6U">Watch On Youtube</a>
+</h1>
 
 
 <h2>Image Manual</h2>
