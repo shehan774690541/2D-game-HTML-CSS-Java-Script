@@ -34,9 +34,6 @@
 <a href="https://youtu.be/xvsQJ_ONT6U">Watch On Youtube</a>
 </h1>
 
-
-<h2>Image Manual</h2>
-
 <h3>Main Menu</h3>
 <img src="git-img/mainMenu.png"/>
 
