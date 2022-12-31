@@ -10,6 +10,6 @@
 
 <h2>Pages in the game</h2>
 <li><b>PLAY <u>(index.html)</u> </b> - <i>The page where the main menu is created(The game is on (<u>Play.html</u>)</i></li>
-<li><b>HOW TO PLAY <u>(howToPlay.html)</u> </b> - <i></i></li>
+<li><b>HOW TO PLAY <u>(howToPlay.html)</u> </b> - <i>Here is how to play this game in <a href="https://en.wikipedia.org/wiki/Sinhala_language">Sinhala</a>language</i></li>
 <li><b>CONTROLS <u>(controllers.html)</u> </b> - <i></i></li>
 <li><b>CREDITS <u>(credits.html)</u></b> - <i></i></li>
