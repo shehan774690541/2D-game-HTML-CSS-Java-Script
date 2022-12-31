@@ -30,36 +30,41 @@
 <li><b>HARDCORE</b> - <i>The speed is quite high.  Takes a competitive style.  Quite tiring</i></li>
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
 
+
+<button href="https://youtu.be/xvsQJ_ONT6U">Watch On Youtube</button>
+
+
+
 <h2>Image Manual</h2>
 
 <h3>Main Menu</h3>
 <img src="git-img/mainMenu.png"/>
 
 <h3>Manual</h3>
-<img src="manual.png"/>
+<img src="git-img/manual.png"/>
 
 <h3>Controles</h3>
-<img src="keys.png"/>
+<img src="git-img/keys.png"/>
 
 <h3>Credit</h3>
-<img src="credit.png"/>
+<img src="git-img/credit.png"/>
 
 <h3>Gender Select Menu</h3>
-<img src="player1.png"/>
+<img src="git-img/player1.png"/>
 
 <h3>Background Select Menu</h3>
-<img src="bg.png"/>
+<img src="git-img/bg.png"/>
 
 <h3>difficulty Select Menu</h3>
-<img src="difficulty.png"/>
+<img src="git-img/difficulty.png"/>
 
 <h3>Playing Game -1</h3>
-<img src="playing2.png"/>
+<img src="git-img/playing2.png"/>
 
 <h3>Playing Game -2</h3>
-<img src="playing.png"/>
+<img src="git-img/playing.png"/>
 
 <h3>Game Over</h3>
-<img src="win.png"/>
+<img src="git-img/win.png"/>
 
 
