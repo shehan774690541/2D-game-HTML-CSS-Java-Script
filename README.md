@@ -13,3 +13,14 @@
 <li><b>HOW TO PLAY <u>(howToPlay.html)</u> </b> - <i>Here is how to play this game in <a href="https://en.wikipedia.org/wiki/Sinhala_language">Sinhala </a>language</i></li>
 <li><b>CONTROLS <u>(controllers.html)</u> </b> - <i>Here are the keyboard keys required for the game</i></li>
 <li><b>CREDITS <u>(credits.html)</u></b> - <i>Here is about <a href="https://shehan774690541@gmail.com/">me</a> who created this game</i></li>
+
+<h2>How to open the game.</h2>
+<li>First, open the index.html file.</li>
+<li>Click the play button and open the gender select menu.</li>
+<li>Choose whether you prefer a boy or a girl. The default selection is male.</li>
+<li>Select Girl or Boy and click Go Next button <b>*twice</b>.</li>
+<li>Choose which background you want to play in. You are given 3 backgrounds namely Jungle, Ice and Park.</li>
+<li>Choose which background you like and give go next. If nothing is selected, the park background is automatically selected</li>
+<li>Choose a mode that suits your skill level in the difficulty menu</li>
+<li>Once you select the difficulty level you want, an alt will give you a description of the difficulty level. Once that is done, the game is reversed</li>
+
