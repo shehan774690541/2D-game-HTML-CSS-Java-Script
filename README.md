@@ -31,7 +31,7 @@
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
 
 <h1>
-<span><img src="https://static.vecteezy.com/system/resources/previews/018/930/575/original/youtube-logo-youtube-icon-transparent-free-png.png" width="1rem"/> <a href="https://youtu.be/xvsQJ_ONT6U" >Watch On Youtube</a></span>
+<span><img src="https://static.vecteezy.com/system/resources/previews/018/930/575/original/youtube-logo-youtube-icon-transparent-free-png.png" height="50px"/> <a href="https://youtu.be/xvsQJ_ONT6U" >Watch On Youtube</a></span>
 </h1>
 
 <h3>Main Menu</h3>
