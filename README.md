@@ -31,7 +31,8 @@
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
 
 
-[![YouTube Video](https://img.youtube.com/vi/xvsQJ_ONT6U/0.jpg)](https://www.youtube.com/watch?v=xvsQJ_ONT6U){:target="_blank"}
+<a href="https://www.youtube.com/watch?v=xvsQJ_ONT6U" target="_blank"><img src="https://img.youtube.com/vi/xvsQJ_ONT6U/0.jpg" alt="YouTube Video"></a>
+
 
 
 <h3>Main Menu</h3>
