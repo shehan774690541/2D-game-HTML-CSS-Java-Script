@@ -30,9 +30,9 @@
 <li><b>HARDCORE</b> - <i>The speed is quite high.  Takes a competitive style.  Quite tiring</i></li>
 <li><b>ADVANCED</b> - <i>The speed is too high.  Difficult to play.  For skilled players</i></li>
 
-<h1>
-<span><img src="https://static.vecteezy.com/system/resources/previews/018/930/575/original/youtube-logo-youtube-icon-transparent-free-png.png" height="50px"/> <a href="https://youtu.be/xvsQJ_ONT6U" >Watch On Youtube</a></span>
-</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xvsQJ_ONT6U?si=D3NXsubgKZpyrLFF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 <h3>Main Menu</h3>
 <img src="git-img/mainMenu.png"/>
